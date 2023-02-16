@@ -1,13 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h2 {
+  font-family: 'Acmathin';
+}
+
+p,a {
+  font-family: 'Neuemontreal-book';
+}
+
+
+@font-face {
+  font-family: 'Neuemontreal-book';
+  src: local('Neuemontreal-book'), url(../fonts/PPNeueMontreal-Book.otf) format('opentype');
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: 'Neuebit';
+  src: local('Neuebit'), url(../fonts/PPNeueBit-Bold.otf) format('opentype');
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: 'Mondwest';
+  src: local('Mondwest'), url(../fonts/PPMondwest-Regular.otf) format('opentype');
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: 'Acmalight';
+  src: local('Acmalight'), url(../fonts/PPAcma-Light.otf) format('opentype');
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: 'Acmathin';
+  src: local('Acmathin'), url(../fonts/PPAcma-Thin.otf) format('opentype');
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: 'Acmablack';
+  src: local('Acmablack'), url(../fonts/PPAcma-Black.otf) format('opentype');
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: 'Acmasemibold';
+  src: local('Acmasemibold'), url(../fonts/PPAcma-Semibold.otf) format('opentype');
+  font-weight: 100;
 }
