@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import picture from './photos/front-page.jpg'
 import { Link } from 'react-router-dom'
@@ -9,7 +8,7 @@ function App() {
     <div className="bg-[#4321B9] min-h-screen">
 
       <div className="relative max-w-4xl m-auto pb-24">
-        <img src={picture}
+        <img alt="" src={picture}
           className="w-full md:rounded-[3rem]">
         </img>
 

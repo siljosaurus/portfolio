@@ -27,7 +27,6 @@ export const Sensorita = () => {
 
             <a
                     href="https://sensorita.com/"
-                    target="_blank"
                     title="Link to sensorita.com"
                     className="border-2 text-xl font-Neuemontreal-book hover:underline hover:text-black hover:bg-white hover:border-black bg-black p-3 py-1 rounded-full text-white">
                     Sensorita.com
