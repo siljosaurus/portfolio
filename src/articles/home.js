@@ -9,7 +9,7 @@ export const Home = () => {
         <div>
             <header className="flex flex-row items-end justify-between flex-wrap">
                 <div className="flex flex-row">
-                    <img src={flamme} className="h-20"></img>
+                    <img alt="" src={flamme} className="h-20"></img>
                     <div className="flex flex-col justify-end">
                         <p className="font-display ">Silje Marie Flaaten</p>
                         <p className="font-display mb-1">A creative coder and designer</p>
@@ -23,25 +23,25 @@ export const Home = () => {
             <div className="max-w-4xl m-auto">
                 <div className="border-black grid grid-cols-1 sm:grid-cols-2  p-4 gap-10  m-auto" >
                     <div>
-                        <img src={kistefoss} className="w-full aspect-square object-cover"></img>
+                        <img alt="" src={kistefoss} className="w-full aspect-square object-cover"></img>
                         <Link to="/meaningful" className="text-center w-full mt-4 hover:underline">
                             <p className="text-center mt-4">UX research on interactive <br /> meaning-making in museums.</p>
                         </Link>
                     </div>
                     <article>
-                        <img src={trashpose} className="w-full aspect-square object-cover"></img>
+                        <img alt="" src={trashpose} className="w-full aspect-square object-cover"></img>
                         <Link to="/sensorita" className="text-center mt-4 hover:underline">
                             <p className="text-center mt-4">UX research on waste management.</p>
                         </Link>
                     </article>
                     <article>
-                        <img src={juv} className="w-full aspect-square object-cover"></img>
+                        <img alt="" src={juv} className="w-full aspect-square object-cover"></img>
                         <Link to="/bookingservice" className="text-center mt-4 hover:underline">
                             <p className="text-center mt-4">Service design for booking activities.</p>
                         </Link>
                     </article>
                     <article>
-                        <img src={trashpose} className="w-full aspect-square object-cover"></img>
+                        <img alt="" src={trashpose} className="w-full aspect-square object-cover"></img>
                         <p className="text-center mt-4">Developing microservices</p>
                     </article>
                 </div>

@@ -2,7 +2,6 @@ import pdf from "../photos/master_presentation.pdf"
 import myimg from "../photos/_MG_9791.JPG"
 import { Link } from 'react-router-dom'
 
-
 export const Meaningfulness = () => {
 
     return (
@@ -16,7 +15,7 @@ export const Meaningfulness = () => {
             </div>
             <div className="">
 
-                <img src={myimg} title="Photo credit: Silje Marie Flaaten"></img>
+                <img alt="" src={myimg} title="Photo credit: Silje Marie Flaaten"></img>
 
                 <p className="p-1 italic">‘Point of View’ by Elmgreen & Dragset, exhibited at Kistefoss museum.</p>
 
@@ -37,7 +36,7 @@ export const Meaningfulness = () => {
                 <p className=" text-9xl">*</p>
                 <a
                     href={pdf}
-                    target="_blank"
+                    
                     title="master_presentation.pdf"
                     className="absolute bottom-1 left-5 border-2 text-xl font-Neuemontreal-book hover:underline hover:text-black hover:bg-white hover:border-black bg-black p-3 py-1 rounded-full text-white">
                     Skim through the presentation
