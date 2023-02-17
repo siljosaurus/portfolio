@@ -2,7 +2,7 @@ import befaring from "../photos/SENSORITA/befaring.JPG"
 import trashpose from "../photos/SENSORITA/trash_pose.jpeg"
 import movingtrash from "../photos/SENSORITA/moving_trash.jpeg"
 import logging from "../photos/SENSORITA/logging.jpeg"
-import loggingtrash from "../photos/SENSORITA/logging_trash.jpeg"
+import persona from "../photos/SENSORITA/persona.png"
 import pris from "../photos/SENSORITA/pris.jpg"
 import stand from "../photos/SENSORITA/stand.jpeg"
 import { Link } from "react-router-dom"
@@ -33,10 +33,10 @@ export const Sensorita = () => {
 
 
             <div className="my-3">
-                <p className=" font-bold text-lg ">Services</p>
-                <p>UX research</p>
+                <p className=" font-bold text-lg ">Deliverance</p>
+                <p>UX research report</p>
                 <p>Service design</p>
-                <p>Lean startup</p>
+                <p>Conference material</p>
             </div>
 
             <h1 className="mt-12 text-4xl text-center font-display">Design Process</h1>
@@ -51,9 +51,9 @@ export const Sensorita = () => {
                     </article>
 
                     <article>
-                        <img alt="" src={loggingtrash} className="w-full aspect-square object-cover" title="Photo credit: Silje Marie Flaaten"></img>
+                        <img alt="" src={persona} className="w-full aspect-square object-cover" title="Photo credit: Silje Marie Flaaten"></img>
                         <p className="text-center mt-4 ">
-                            <p className="text-center mt-4"></p>
+                            <p className="text-center mt-4">Silje delivered service blueprints, personas, user stories and a first iteration of a service design for Sensoritas platform.</p>
                         </p>
                     </article>
 
