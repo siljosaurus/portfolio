@@ -27,7 +27,7 @@ export const Sensorita = () => {
             </a>
 
             <div className="my-3">
-                <p className=" font-bold">Project Overview</p>
+                <p className=" text-2xl text-center font-bold">Project Overview</p>
                 <p>Sensorita is a startup developing a sensor to measure filling levels in open waste containers. The sensor and web system allows users to digitize their containers and track waste levels. Silje was responsible for designing and developing a proof-of-concept of the web service, and gathered insights to validate the need for automatic emptying services.</p>
             </div>
 
