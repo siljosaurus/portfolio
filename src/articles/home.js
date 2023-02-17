@@ -16,7 +16,7 @@ export const Home = () => {
                     </div>
                 </div>
                 <div className="mb-1">
-                    <Link to="/about" className="m-3 text-right font-display hover:underline">About me</Link>
+                    <Link to="/" className="m-3 text-right font-display hover:underline">About me</Link>
                 </div>
             </header>
             <h1 className="mt-12 text-4xl text-center font-display">Project Portfolio</h1>
@@ -40,10 +40,8 @@ export const Home = () => {
                             <p className="text-center mt-4">Service design for booking activities.</p>
                         </Link>
                     </article>
-                    <article>
-                        <img alt="" src={trashpose} className="w-full aspect-square object-cover"></img>
-                        <p className="text-center mt-4">Developing microservices</p>
-                    </article>
+                    
+                    
                 </div>
             </div>
         </div>
