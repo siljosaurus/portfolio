@@ -1,6 +1,11 @@
 import pdf from "../photos/master_presentation.pdf"
 import myimg from "../photos/_MG_9791.JPG"
 import { Link } from 'react-router-dom'
+import klimahuset from "../photos/MUSEUM/klimahuset.JPG"
+import hand from "../photos/MUSEUM/tangible_hand.JPG"
+import cables from "../photos/MUSEUM/tangible_cables.JPG"
+import framework from "../photos/MUSEUM/framework.png"
+
 
 export const Meaningfulness = () => {
 
@@ -66,6 +71,43 @@ export const Meaningfulness = () => {
                     The hypothesis is that there lies value for the museum to judge whether or not their exhibitions promote dialogue in compliance with the museums agenda and vision.
                 </p>
             </div>
+
+            <h1 className="mt-12 text-4xl text-center font-display">Design Process</h1>
+            <div className="max-w-4xl m-auto">
+                <div className="border-black grid grid-cols-1 sm:grid-cols-2  p-4 gap-10  m-auto" >
+
+                    <article>
+                        <img alt="" src={klimahuset} className="w-full aspect-square object-cover"></img>
+                        <Link to="/meaningful" className="text-center w-full mt-4 hover:underline" title="Photo credit: Silje Marie Flaaten">
+                            <p className="text-center mt-4"></p>
+                        </Link>
+                    </article>
+
+                    <article>
+                        <img alt="" src={hand} className="w-full aspect-square object-cover"></img>
+                        <Link to="/sensorita" className="text-center mt-4 hover:underline" title="Photo credit: Silje Marie Flaaten">
+                            <p className="text-center mt-4"></p>
+                        </Link>
+                    </article>
+
+                    <article>
+                        <img alt="" src={cables} className="w-full aspect-square object-cover"></img>
+                        <Link to="/bookingservice" className="text-center mt-4 hover:underline" title="Photo credit: Silje Marie Flaaten">
+                            <p className="text-center mt-4"></p>
+                        </Link>
+                    </article>
+
+                    <article>
+                        <img alt="" src={framework} className=" w-full aspect-square object-cover"></img>
+                        <Link to="/bookingservice" className="text-center mt-4 hover:underline" title="Photo credit: Silje Marie Flaaten">
+                            <p className="text-center mt-4"></p>
+                        </Link>
+                    </article>
+
+
+                </div>
+            </div>
+
 
 
 
