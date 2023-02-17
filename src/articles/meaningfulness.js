@@ -3,8 +3,10 @@ import myimg from "../photos/_MG_9791.JPG"
 import { Link } from 'react-router-dom'
 import klimahuset from "../photos/MUSEUM/klimahuset.JPG"
 import hand from "../photos/MUSEUM/tangible_hand.JPG"
-import cables from "../photos/MUSEUM/tangible_cables.JPG"
+import kistefoss from "../photos/MUSEUM/kistefoss.jpg"
 import framework from "../photos/MUSEUM/framework.png"
+import analysis from "../photos/MUSEUM/analysis.jpg"
+import patterns from "../photos/MUSEUM/patternss.png"
 
 
 export const Meaningfulness = () => {
@@ -27,7 +29,6 @@ export const Meaningfulness = () => {
             </div>
 
             <br />
-
 
 
             <p className="py-3 text-xl">
@@ -78,40 +79,49 @@ export const Meaningfulness = () => {
 
                     <article>
                         <img alt="" src={klimahuset} className="w-full aspect-square object-cover"></img>
-                        <Link to="/meaningful" className="text-center w-full mt-4 hover:underline" title="Photo credit: Silje Marie Flaaten">
-                            <p className="text-center mt-4"></p>
-                        </Link>
+                        <p to="/meaningful" className="text-center w-full mt-4 " title="Photo credit: Silje Marie Flaaten">
+                            <p className="text-center mt-4">The project was initiated through a collaboration between Klimahuset and UiO. Klimahuset provided access to their exhibition space, museum staff, docents and visitors for interviewing.</p>
+                        </p>
+                    </article>
+
+                    <article>
+                        <img alt="" src={kistefoss} className="w-full aspect-square object-cover"></img>
+                        <p to="/sensorita" className="text-center mt-4 " title="Photo credit: Silje Marie Flaaten">
+                            <p className="text-center mt-4">The dataset consist of 21 interactive installations collected from 7 different exhibitions from the MUNCH museum, Atelier Nord, Kistefoss museum, Teknisk Museum and Klimahuset.</p>
+                        </p>
                     </article>
 
                     <article>
                         <img alt="" src={hand} className="w-full aspect-square object-cover"></img>
-                        <Link to="/sensorita" className="text-center mt-4 hover:underline" title="Photo credit: Silje Marie Flaaten">
-                            <p className="text-center mt-4"></p>
-                        </Link>
+                        <p to="/bookingservice" className="text-center mt-4 " title="Photo credit: Silje Marie Flaaten">
+                            <p className="text-center mt-4">During the project Silje designed and prototyped low-fidelity installation designs with microcontrollers. In a team of three, she designed an installation that was showcased as part of a bigger exhibition.</p>
+                        </p>
                     </article>
 
                     <article>
-                        <img alt="" src={cables} className="w-full aspect-square object-cover"></img>
-                        <Link to="/bookingservice" className="text-center mt-4 hover:underline" title="Photo credit: Silje Marie Flaaten">
-                            <p className="text-center mt-4"></p>
-                        </Link>
+                        <img alt="" src={analysis} className="w-full aspect-square object-cover"></img>
+                        <p to="/bookingservice" className="text-center mt-4 " title="Photo credit: Silje Marie Flaaten">
+                            <p className="text-center mt-4">The project followed an approach to research practise called Research through Design. Qualitative and quantitative analysis were conducted, e.g. through heatmapping and radar charts. </p>
+                        </p>
+                    </article>
+
+                    <article>
+                        <img alt="" src={patterns} className=" w-full aspect-square object-cover"></img>
+                        <p to="/bookingservice" className="text-center mt-4 " title="Photo credit: Silje Marie Flaaten">
+                            <p className="text-center mt-4">Derived from the analysis, Silje presented a list of 21 patterns that objectify meaningfulness as a quality that you can design for.</p>
+                        </p>
                     </article>
 
                     <article>
                         <img alt="" src={framework} className=" w-full aspect-square object-cover"></img>
-                        <Link to="/bookingservice" className="text-center mt-4 hover:underline" title="Photo credit: Silje Marie Flaaten">
-                            <p className="text-center mt-4"></p>
-                        </Link>
+                        <p to="/bookingservice" className="text-center mt-4 " title="Photo credit: Silje Marie Flaaten">
+                            <p className="text-center mt-4">At the end of the project Silje presented a framework for designers and museum curators, that can be used to identify and analyse dialogic relations between visitor and interactive installations. </p>
+                        </p>
                     </article>
 
 
                 </div>
             </div>
-
-
-
-
-
 
             <div>
                 <Link
@@ -120,10 +130,8 @@ export const Meaningfulness = () => {
 
                 </Link>
 
-
             </div>
         </div >
-
     )
 }
 
