@@ -3,7 +3,7 @@ import trashpose from "../photos/SENSORITA/trash_pose.jpeg"
 import movingtrash from "../photos/SENSORITA/moving_trash.jpeg"
 import logging from "../photos/SENSORITA/logging.jpeg"
 import loggingtrash from "../photos/SENSORITA/logging_trash.jpeg"
-import standulla from "../photos/SENSORITA/stand_ulla.jpeg"
+import pris from "../photos/SENSORITA/pris.jpg"
 import stand from "../photos/SENSORITA/stand.jpeg"
 import { Link } from "react-router-dom"
 
@@ -40,51 +40,53 @@ export const Sensorita = () => {
             </div>
 
             <h1 className="mt-12 text-4xl text-center font-display">Design Process</h1>
-            
             <div className="max-w-4xl m-auto">
                 <div className="border-black grid grid-cols-1 sm:grid-cols-2  p-4 gap-10  m-auto" >
                    
                     <article>
                         <img alt="" src={befaring} className="w-full aspect-square object-cover" title="Photo credit: Silje Marie Flaaten"></img>
-                        <Link to="/meaningful" className="text-center w-full mt-4 hover:underline">
-                            <p className="text-center mt-4">Befaring</p>
-                        </Link>
-                    </article>
-
-                    <article>
-                        <img alt="" src={movingtrash} className="w-full aspect-square object-cover" title="Photo credit: Silje Marie Flaaten"></img>
-                        <Link to="/sensorita" className="text-center mt-4 hover:underline">
-                            <p className="text-center mt-4"></p>
-                        </Link>
-                    </article>
-
-                    <article>
-                        <img alt="" src={logging} className="w-full aspect-square object-cover" title="Photo credit: Silje Marie Flaaten"></img>
-                        <Link to="/bookingservice" className="text-center mt-4 hover:underline">
-                            <p className="text-center mt-4"></p>
-                        </Link>
+                        <p to="/meaningful" className="text-center w-full mt-4 ">
+                            <p className="text-center mt-4">Silje interviewed stakeholders responsible for waste management in different construction firms, e.g. Veidekke, AF-Gruppen, Betonmast, Selvaag, and Backe.</p>
+                        </p>
                     </article>
 
                     <article>
                         <img alt="" src={loggingtrash} className="w-full aspect-square object-cover" title="Photo credit: Silje Marie Flaaten"></img>
-                        <Link to="/bookingservice" className="text-center mt-4 hover:underline">
+                        <p className="text-center mt-4 ">
                             <p className="text-center mt-4"></p>
-                        </Link>
+                        </p>
                     </article>
-                    
+
                     <article>
-                        <img alt="" src={standulla} className="w-full aspect-square object-cover" title="Photo credit: Silje Marie Flaaten"></img>
-                        <Link to="/bookingservice" className="text-center mt-4 hover:underline">
-                            <p className="text-center mt-4"></p>
-                        </Link>
+                        <img alt="" src={logging} className="w-full aspect-square object-cover" title="Photo credit: Silje Marie Flaaten"></img>
+                        <p lassName="text-center mt-4">
+                            <p className="text-center mt-4">The team got access to a waste management facility, where the machine learning team trained algorithms by manually filling containers with waste. </p>
+                        </p>
+                    </article>
+
+                    <article>
+                        <img alt="" src={movingtrash} className="w-full aspect-square object-cover" title="Photo credit: Silje Marie Flaaten"></img>
+                        <p className="text-center mt-4 ">
+                            <p className="text-center mt-4">The machine learning team in action.</p>
+                        </p>
                     </article>
 
                     <article>
                         <img alt="" src={stand} className="w-full aspect-square object-cover" title="Photo credit: Silje Marie Flaaten"></img>
-                        <Link to="/bookingservice" className="text-center mt-4 hover:underline">
-                            <p className="text-center mt-4"></p>
-                        </Link>
+                        <p className="text-center mt-4">
+                            <p className="text-center mt-4">Silje designed conference material, and created two animations for Avfallskonferansen 2022.</p>
+                        </p>
                     </article>
+
+                    <article>
+                        <img alt="" src={pris} className="w-full aspect-square object-cover" title="Photo credit: Vegard Breie Photography"></img>
+                        <p className="text-center mt-4 ">
+                            <p className="text-center mt-4">Sensorita won the Entrepreneur award at Avfallskonferansen. </p>
+                            <p>Photo credit: Vegard Breie Photography.</p>
+                        </p>
+                    </article>
+
+                   
                     
                 </div>
             </div>
