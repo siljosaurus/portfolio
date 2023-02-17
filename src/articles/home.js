@@ -19,7 +19,9 @@ export const Home = () => {
                     <Link to="/" className="m-3 text-right font-display hover:underline">About me</Link>
                 </div>
             </header>
+            
             <h1 className="mt-12 text-4xl text-center font-display">Project Portfolio</h1>
+            
             <div className="max-w-4xl m-auto">
                 <div className="border-black grid grid-cols-1 sm:grid-cols-2  p-4 gap-10  m-auto" >
                     <div>
